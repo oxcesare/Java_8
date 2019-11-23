@@ -15,7 +15,31 @@ import java.util.*;
 public class Solution {
 
     public static void main(String[] args) {
-        
+        ArrayList mylist = new ArrayList();
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        for (int i = 0; i < n; i++) {
+            mylist.add(sc.nextInt());
+        }
+
+        int m = sc.nextInt();
+
+        for (int i = 0; i < m; i++) {
+            String operacion = sc.next();
+            if (operacion.equals("Insert")) {
+                int posicion = sc.nextInt();
+                int valor = sc.nextInt();
+                mylist.add(posicion, valor);
+            } else if (operacion.equals("Delete")) {
+                int posicion = sc.nextInt();
+                mylist.remove(posicion);
+            }
+        }
+
+        for (Object object : mylist) {
+            System.out.println(object);
+        }
+
     }
 }
-
