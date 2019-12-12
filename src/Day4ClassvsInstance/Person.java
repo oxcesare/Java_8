@@ -14,7 +14,8 @@ import java.util.*;
  */
 public class Person {
 
-    private int age;
+    private int age; //Variable de clase 
+                      //Variable de instancia cuando se crea el objeto a partir de una clase
 
     public Person(int initialAge) {
         if (initialAge > 0) {
