@@ -3,18 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package CanYouAccess;
+package Day4ClassvsInstance;
 
 /**
  *
  * @author Supaada-q214
- * 
- * No se pueden crear funciones internas 
- * en invocaciones de clases abstractas
  */
-public class Whizlab {
+public class TestGeneric {
     
     public static void main(String[] args) {
-        //ExampleAbstract test = (String ... x)-> System.out.println(x[1]);
+        
+        Integer valor=10;
+        MyListGeneric<Integer> num = new MyListGeneric<>();        
+        System.out.println(num.toString());                
     }
+    
 }

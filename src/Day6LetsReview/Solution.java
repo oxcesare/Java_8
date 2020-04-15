@@ -9,11 +9,7 @@ package Day6LetsReview;
  *
  * @author Supaada-q214
  */
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class Solution {
 
@@ -30,7 +26,7 @@ public class Solution {
             for (int j = 0; j < a.length(); j++) {
                 if (j % 2 == 0) {
                     c = a.substring(j, j + 1);
-                    System.out.print(c);                    
+                    System.out.print(c);
                 }
             }
             System.out.print(" ");

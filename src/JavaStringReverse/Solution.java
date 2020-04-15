@@ -24,24 +24,20 @@ public class Solution {
             char cReves = A.charAt(i);
             String sReves = String.valueOf(cReves);
 
-            
             char cDerecho = A.charAt(j);
             String sDerecho = String.valueOf(cDerecho);
-            
-            
 
             if (sReves.equals(sDerecho)) {
                 vCadena = true;
-            }else{
-                vCadena =false;
+            } else {
+                vCadena = false;
                 break;
             }
-
         }
-        
-        if(vCadena){
+
+        if (vCadena) {
             System.out.println("Yes");
-        }else{
+        } else {
             System.out.println("No");
         }
 

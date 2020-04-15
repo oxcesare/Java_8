@@ -24,9 +24,6 @@ class Printer <T> {
     
     // Write your code here
     
-    
-    
-
 }
 
 public class Generics {

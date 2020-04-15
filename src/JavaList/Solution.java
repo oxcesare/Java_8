@@ -13,6 +13,8 @@ import java.util.*;
  * @author Supaada-q214
  */
 public class Solution {
+    
+    private String x="a"; private String d="r";
 
     public static void main(String[] args) {
         ArrayList mylist = new ArrayList();

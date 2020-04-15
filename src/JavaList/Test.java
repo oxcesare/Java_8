@@ -3,18 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package CanYouAccess;
+package JavaList;
+
+import java.util.Scanner;
 
 /**
  *
  * @author Supaada-q214
- * 
- * No se pueden crear funciones internas 
- * en invocaciones de clases abstractas
  */
-public class Whizlab {
+public class Test {
     
     public static void main(String[] args) {
-        //ExampleAbstract test = (String ... x)-> System.out.println(x[1]);
+         Scanner in = new Scanner(System.in);
+         int n = in.nextInt();
+         
+         
     }
+    
 }

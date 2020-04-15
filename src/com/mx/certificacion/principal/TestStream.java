@@ -14,6 +14,13 @@ import java.util.stream.Stream;
  *
  * @author Supaada-q214
  */
+
+class A {
+
+    public A() {
+    }
+    
+}
 public class TestStream {
 
     public TestStream() {
@@ -33,9 +40,7 @@ public class TestStream {
         listPersona.add(obj4);
         
         Stream<Double> stream = Stream.of(14.4,15.4,16.4,17.4);
-        Optional<Double> x  = stream.findAny();
-        //System.out.println(""+x.isPresent());
-        
+        Optional<Double> x  = stream.findAny();        
         listPersona.stream().forEach(System.out::println);
         
     }

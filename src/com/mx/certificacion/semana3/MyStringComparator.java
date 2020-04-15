@@ -19,7 +19,7 @@ import java.util.Comparator;
  * poder usar uso de este metodo.
  *  
  */
-public class MyStringComparator implements Comparator {
+public class MyStringComparator implements Comparable<Object> {
     
     static String[] sa = { "d", "bbb", "aaaa" }; 
 
@@ -31,5 +31,10 @@ public class MyStringComparator implements Comparator {
     
     public static void main(String[] args) {
         Arrays.binarySearch(sa, "cc", new MyStringComparator()); 
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

@@ -18,7 +18,8 @@ public class Test implements Changer<String>{
 
     @Override
     public String changer(String t) {
-       Changer<String> fun = String::length;
-       fun.changer("Cadena");
+       //  Changer<String> fun = String::length;
+       // fun.changer("Cadena");
+       return "";
     }
 }
